@@ -1,5 +1,5 @@
 gpath=~/go/bin/
-dir=~/arsenal
+dir=~/Bazz-Recon
 results=~/Recon/$domain
 red=`tput setaf 1`
 green=`tput setaf 2`
