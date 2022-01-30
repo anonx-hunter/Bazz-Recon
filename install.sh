@@ -37,7 +37,6 @@ git clone https://github.com/GerbenJavado/LinkFinder $dir/LinkFinder;
 git clone https://github.com/m4ll0k/SecretFinder $dir/SecretFinder;
 git clone https://github.com/devanshbatham/ParamSpider $dir/ParamSpider;
 git clone https://github.com/blackhatethicalhacking/s3-buckets-aio-pwn $dir/s3-bucket-aio-pwn;
-
 go get -u -v github.com/projectdiscovery/dnsprobe;
 git clone https://github.com/maurosoria/dirsearch $dir/dirsearch;
 git clone https://github.com/ozguralp/gmapsapiscanner $dir/gmapsapiscanner;
