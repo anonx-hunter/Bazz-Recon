@@ -4,6 +4,7 @@ sudo apt-get install python3;
 sudo apt-get install python3-pip;
 sudo apt-get install ruby;
 sudo apt-get install screen;
+sudo apt install lolcat;
 sudo apt-get install git;
 mkdir ~/.gf
 mkdir ~/Tools;
@@ -19,11 +20,11 @@ go install -v github.com/lukasikic/subzy;
 go get -u -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei;
 git clone https://github.com/projectdiscovery/nuclei-templates $dir/nuclei-templates;
 go get github.com/haccer/subjack;
-GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder
+GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder;
 GO111MODULE=on go get -v github.com/projectdiscovery/chaos-client/cmd/chaos;
 go get -u -v github.com/hahwul/dalfox;
 go get -u -v github.com/lc/gau;
-GO111MODULE=on go get -u -v github.com/lc/subjs
+GO111MODULE=on go get -u -v github.com/lc/subjs;
 go get github.com/hakluke/hakcheckurl;
 go get github.com/hakluke/hakrawler;
 go get github.com/hakluke/hakrevdns;
@@ -43,6 +44,7 @@ git clone https://github.com/ozguralp/gmapsapiscanner $dir/gmapsapiscanner;
 go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns;
 git clone https://github.com/1ndianl33t/Gf-Patterns $dir/Gf-Patterns;
 pip3 install corscanner
+pip3 install lolcat
 pip3 install -r ~/Tools/*/requirements.txt;
 mv $dir/Gf-Patterns/*.json /root/.gf/;
 rm -r $dir/Gf-Patterns;
