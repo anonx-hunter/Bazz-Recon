@@ -29,10 +29,15 @@ go get github.com/hakluke/hakrawler;
 go get github.com/hakluke/hakrevdns;
 go get -u -v github.com/projectdiscovery/httpx/cmd/httpx;
 git clone https://github.com/blechschmidt/massdns $dir/massdns;
+git clone https://github.com/gitnepal/isup $dir/isup;
+git clone https://github.com/defparam/smuggler.git $dir/smuggler;
+git clone https://github.com/m4ll0k/takeover.git $dir/takeover;
 git clone https://github.com/devanshbatham/FavFreak $dir/FavFreak;
 git clone https://github.com/GerbenJavado/LinkFinder $dir/LinkFinder;
 git clone https://github.com/m4ll0k/SecretFinder $dir/SecretFinder;
 git clone https://github.com/devanshbatham/ParamSpider $dir/ParamSpider;
+git clone https://github.com/blackhatethicalhacking/s3-buckets-aio-pwn $dir/s3-bucket-aio-pwn;
+
 go get -u -v github.com/projectdiscovery/dnsprobe;
 git clone https://github.com/maurosoria/dirsearch $dir/dirsearch;
 git clone https://github.com/ozguralp/gmapsapiscanner $dir/gmapsapiscanner;
