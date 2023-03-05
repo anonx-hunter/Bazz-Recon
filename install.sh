@@ -1,11 +1,11 @@
 #!/bin/sh
 
-sudo apt-get install python3;
-sudo apt-get install python3-pip;
-sudo apt-get install ruby;
-sudo apt-get install screen;
-sudo apt install lolcat;
-sudo apt-get install git;
+sudo apt-get install python3 -y;
+sudo apt-get install python3-pip -y;
+sudo apt-get install ruby -y;
+sudo apt-get install screen -y;
+sudo apt install lolcat -y;
+sudo apt-get install git -y;
 mkdir ~/.gf
 mkdir ~/Tools;
 mkdir ~/Recon;
