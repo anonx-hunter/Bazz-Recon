@@ -4,7 +4,7 @@ import config_file
 
 def DiscordWebHook(discordUrl):
 	# rename your bot here
-	botName = "Bheem Bot"
+	botName = "BAZZ Bot"
 
 	message = f'```yaml\n [{sys.argv[1]}]: Finished Bheem Script for {sys.argv[2]}``` Results stored in **folder**: {sys.argv[3]}'
 	data = {
