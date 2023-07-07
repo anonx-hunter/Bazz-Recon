@@ -6,7 +6,7 @@ def DiscordWebHook(discordUrl):
 	# rename your bot here
 	botName = "BAZZ Bot"
 
-	message = f'```yaml\n [{sys.argv[1]}]: Finished Bheem Script for {sys.argv[2]}``` Results stored in **folder**: {sys.argv[3]}'
+	message = f'```yaml\n [{sys.argv[1]}]: Finished Bazz Script for {sys.argv[2]}``` Results stored in **folder**: {sys.argv[3]}'
 	data = {
 	"content": message, 
 	"username": botName
